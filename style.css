@@ -1,0 +1,41 @@
+h1{
+	font-family: 'Alfa Slab One', cursive;
+	text-align: center;
+	letter-spacing: 10px;
+	font-weight: 100;
+}
+
+div.nav{
+	width: 200;
+	height: 80px;
+	cursor: pointer;
+	transition: .5s all;
+	text-align: center;
+	padding: 0px;
+}
+div.nav:hover{
+	transform:1.1 1.1;
+	transition: .5s all;
+	background-color:lightseagreen;
+}
+
+#connect{
+	position:fixed;
+	background-color: lightseagreen;
+	top:2;
+	left:2;
+	padding: 3px;
+	margin: 0px;
+}
+
+#connect ul{
+	padding: 0;
+	margin: 2;
+}
+
+body{
+	background-image: url(images/background.jpg);
+	background-size:cover;
+	color:cornsilk;
+	font-family: 'Open Sans', sans-serif;
+}
